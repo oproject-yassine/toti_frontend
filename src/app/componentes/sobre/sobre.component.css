@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    align-items: center;
+    padding: 10px 10%;  
+    margin: 10px auto;
+    background-color: #3540a5;  
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 3px  rgb(87, 65, 214);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 30px;
+    font-family: cursive;
+    color: #e0e0e0;
+}
+
+.navlinks li a {
+    font-family: cursive;
+    font-size: 20px;
+    color: #e0e0e0;
+    transition: 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #ffffff;    
+}
+/* --------------------------------------------------------------------- */
+
+.somos {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.nos {
+    display: flex;    
+    justify-content: center;
+justify-items: center;
+font-weight: 700;
+}
+
+.para0 {
+    position: relative;
+	width: 100%; 
+    text-align: center;
+    margin-top: 15px auto;
+    font-weight: 700;
+}
